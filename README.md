@@ -14,7 +14,7 @@ git clone https:https://github.com/MuntahaShams/Object-detection-using-YOLO.git
 2) Move to the directory
 ```
 cd Object-detection-using-YOLO
-mkdir weights
+jupyter notebook
 ```
 
 3) download yolov3 weights and place it inside weights directory
