@@ -1,15 +1,37 @@
-# Object-detection-using-YOLO
-YOLO is a state-of-the-art, real-time object detection algorithm. In this notebook, we will apply the YOLO algorithm to detect objects in images. We have provided a series of images that you can test the YOLO algorithm on. Below is a list of the available images that you can load:
+# Object-detection-using-YOLOv3
 
-cat.jpg<BR>
-city_scene.jpg<BR>
-dog.jpg<BR>
-dog2.jpg<BR>
-eagle.jpg<BR>
-food.jpg<BR>
-giraffe.jpg<BR>
-horses.jpg<BR>
-motorbike.jpg<BR>
-person.jpg<BR>
-surf.jpg<BR>
-wine.jpg<BR>
+This project implements an image and video object detection classifier using pretrained yolov3 models. 
+The yolov3 models are taken from the official yolov3 paper which was released in 2018. The yolov3 implementation is from [darknet](https://github.com/pjreddie/darknet). Also, this project implements an option to perform classification real-time using the webcam.
+
+## How to use?
+
+1) Clone the repository
+
+```
+git clone https:https://github.com/MuntahaShams/Object-detection-using-YOLO.git
+```
+
+2) Move to the directory
+```
+cd Object-detection-using-YOLO
+mkdir weights
+```
+
+3) download yolov3 weights and place it inside weights directory
+```
+[YOLOv3 Pre-trained Model Weights (yolov3.weights)] (237 MB)(http://pjreddie.com/media/files/yolov3.weights)
+```
+4) To infer on a image 
+```
+run imgae.ipnyb notebook
+```
+
+5) To infer on a video 
+```
+run video.ipnyb notebook
+```
+
+6) To infer real-time on webcam
+```
+run webcam.ipnyb notebook
+```
