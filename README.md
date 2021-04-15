@@ -18,9 +18,8 @@ mkdir weights
 ```
 
 3) download yolov3 weights and place it inside weights directory
-```
 [YOLOv3 Pre-trained Model Weights (yolov3.weights)(237 MB)](http://pjreddie.com/media/files/yolov3.weights)
-```
+
 4) To infer on a image 
 ```
 run imgae.ipnyb notebook
